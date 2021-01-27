@@ -89,7 +89,7 @@ router.post('/article/new', function(req, res) {
   });
   */
   if(id.length==0){
-      Article.create({title:title,passage:content,publishat:new Date().getTime()},function(err,doc){
+      Article.create({title:title,passage:content,updateTime:new Date().getTime()},function(err,doc){
           if(err) {
               console.log(err);
               res.sendStatus(500);
@@ -102,7 +102,7 @@ router.post('/article/new', function(req, res) {
   } else {
       let _id = mongoose.Types.ObjectId(id);
       
-      Article.update({'_id':_id},{$set:{'title':title,'passage':content,'publishat':new Date().getTime()}},function(err,doc){
+      Article.update({'_id':_id},{$set:{'title':title,'passage':content,'updateTime':new Date().getTime()}},function(err,doc){
           if(err) {
               res.send(err);
               res.sendStatus(500);
