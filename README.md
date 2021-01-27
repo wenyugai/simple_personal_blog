@@ -24,7 +24,9 @@
 ![](/snapshots/highlight.png)
 ## Deployment
 + cd backend
++ npm install
 + npm start
 + cd ..
 + cd myblog
++ npm install
 + npm start
