@@ -12,17 +12,17 @@
 + Exploit mongoose to interact with database
 ## Features
 ### Listing articles
-!(https://raw.githubusercontent.com/wenyugai/simple_personal_blog/main/snapshots/listing.png)
+![](https://raw.githubusercontent.com/wenyugai/simple_personal_blog/main/snapshots/listing.png)
 + Simple-style navigator and listing
 + Support paging
 ### Presenting articles
-!(/snapshots/presentation.png)
+![](/snapshots/presentation.png)
 + support editing
 + support deleting
 ### Rich text editor
-!(/snapshots/editing.png)
+![](/snapshots/editing.png)
 ### Code hightlighting
-!(/snapshots/highlight.png)
+![](/snapshots/highlight.png)
 ## Deployment
 + cd backend
 + npm start
