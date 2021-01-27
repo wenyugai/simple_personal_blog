@@ -12,7 +12,7 @@
 + Exploit mongoose to interact with database
 ## Features
 ### Listing articles
-![](https://raw.githubusercontent.com/wenyugai/simple_personal_blog/main/snapshots/listing.png)
+![](/snapshots/listing.png)
 + Simple-style navigator and listing
 + Support paging
 ### Presenting articles
